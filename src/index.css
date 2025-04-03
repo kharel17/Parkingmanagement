@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-4 py-2 rounded-lg shadow-neon 
+           hover:scale-105 transition-all duration-200 ease-in-out;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-white px-4 py-2 rounded-lg shadow-neon-purple 
+           hover:scale-105 transition-all duration-200 ease-in-out;
+  }
+
+  .card {
+    @apply bg-white/10 backdrop-blur-lg rounded-lg p-6 shadow-lg 
+           border border-primary/20;
+  }
+}

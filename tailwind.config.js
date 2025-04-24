@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
@@ -9,9 +10,11 @@ export default {
         background: {
           dark: '#1E1E2F',
           darker: '#2A2A3D',
+          light: '#F8FAFC',
+          lighter: '#FFFFFF',
         },
         status: {
-          available: '#39FF14',
+          available: '#32CD32',
           occupied: '#FF5555',
           reserved: '#FFAA33',
         },

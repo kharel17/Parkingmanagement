@@ -4,32 +4,32 @@ A modern, admin-focused parking management solution built with React, TypeScript
 
 ## Features
 
-###  Parking Space Management
+### 🚗 Parking Space Management
 - Real-time visualization of parking spaces across multiple floors (B1, B2, B3)
 - Dynamic status indicators (available, occupied, reserved)
 - Interactive grid layout for easy space management
 
-###  Fare Calculation
+### 💳 Fare Calculation
 - Automated fare calculation based on parking duration
 - Different rates for cars (Nrs. 50/hour) and bikes (Nrs. 20/hour)
 - Real-time fare display during vehicle exit
 
-###  Secure Authentication
+### 🔐 Secure Authentication
 - User registration and login system
 - Password recovery functionality
 - Role-based access control
 
-###  Vehicle Tracking
+### 📊 Vehicle Tracking
 - Record entry and exit times
 - Store vehicle details (license plate, type)
 - Track parking duration
 
-###  Multi-Floor Support
+### 🏢 Multi-Floor Support
 - Easy navigation between parking floors
 - Floor-wise occupancy summary
 - Quick status overview
 
-###  Notifications
+### 🔔 Notifications
 - Real-time alerts for parking events
 - Notification system for vehicle overstay
 - System status updates
